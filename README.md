@@ -1,5 +1,8 @@
 # Close_celebrities
 
+![Result_page](https://github.com/AlexeevaPA/Close_celebrities/assets/104028421/956fc728-93fa-474d-be53-57efae7ddbe7)
+
+
 **Overview**
 
 This website aims to assist users in identifying the celebrity that bears the closest 
