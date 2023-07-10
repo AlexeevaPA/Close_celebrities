@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>
+  <p>Load your picture and find out which celebrities look like you</p>
+</h1>
+<section>      
+    <div class="row">
+      <!--Begin col-->
+      <div class="column">
+<h3>Choose file:</h3>
+<form action = "http://localhost:5000/" method = "post" enctype="multipart/form-data">
+<p>
+<input type="file" name="file" id="file-selector">
+<!-- <button id='put' onclick="document.getElementById('file-selector').click()">Your photo</button> -->
+</p>
+<!-- <input type="file" name="file" id="file-selector" style="display:none"> -->
+<p><input type = "submit" id = "submit" value="Upload" /></p>
+</form>
+</div>
+<div class="column">
+  <img src="static\img\shocked_emoji.png">
+  
+</div>
+</div>
+   
+</section>
+{% endblock %}

@@ -1,0 +1,97 @@
+html {
+    background-color: #08bea6;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Markazi Text', serif;
+    letter-spacing: 1px;;
+}
+
+h1 p{
+    color: #0a3347;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+}
+h3 {
+    color: #0a3347;
+    font-size: 1.6rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+}
+
+section {
+    display: flex;
+    gap: 2rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    flex-direction: row;
+}
+
+
+footer {
+    background-color: #0a3347;
+    padding: 1rem;
+    display: flex;
+    gap: 2rem 1rem;
+}
+
+footer img {
+    max-width: 50%;
+}
+
+footer p {
+    border-bottom: #d7c523;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: right;
+    padding-top: 1rem;;
+}
+footer article p{
+    color: #d7c523;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.column {
+    flex-basis: 50%;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+.column figure {
+    padding: 0px 12px;
+
+}
+.column img {
+    max-width: 30%;
+}
+
+#submit {
+    padding: .5rem 1rem;
+    border: 1px solid #0a3347;
+    background-color:#0a3347;
+    border-radius: 5px;
+    width: 50%;
+    font-size: 1.25rem;
+    display: block;
+    color: #d7c523;
+    line-height: 20px;
+  }
+
